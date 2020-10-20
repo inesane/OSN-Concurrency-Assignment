@@ -3,6 +3,8 @@ I have taken a delay for the students to reach the gate of the campus to be a ra
 
 I use 3 structures and 3 threads, one each for the pharmaceutical companies, vaccination zones and students.
 
+3 Mutexes have been used as well to ensure that multiple threads are not running through the same code simultaneously.
+
 Functions
 
 company_function: This function is the function that we run the thread for all the pharmaceutical companies through. We run this function while the number of students who haven't been vaccinated are not 0. This function checks if all the vaccines manufactured in the previous round of manufacturing by a specific company have been used up already by the vaccination zones and executes the manufacturing process for the vaccines. For each manufacturing process, it produces a random number of batches (1 - 5) of vaccines, each batch containing a random number of vaccines (10-20)
