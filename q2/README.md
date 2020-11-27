@@ -1,3 +1,8 @@
+To Run
+```
+gcc q2.c -lpthread
+./a.out
+```
 Assumptions
 I have taken a delay for the students to reach the gate of the campus to be a random integer between 2 and 5 seconds.
 

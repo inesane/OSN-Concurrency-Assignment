@@ -1,3 +1,8 @@
+To Run
+```
+gcc q3.c -lpthread
+./a.out
+```
 In this code I have used 4 semaphores, one for electric stages, one for acoustic stages, one for coordinators and one for musicians.
 
 The electric stages and acoustic stages semaphores are used to ensure that only one performance is occuring at a time on each stage.

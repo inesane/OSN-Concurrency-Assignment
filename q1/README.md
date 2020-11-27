@@ -1,3 +1,8 @@
+To Run
+```
+gcc q1.c -lpthread
+./a.out
+```
 This code has uses 3 different implementations of sorting with the main sort being merge sort and selection sort being used when the number of elements we are sorting in the current step being less than 5.
 
 The 3 different sorts are normal mergesort, mergesort using processes and mergesort with threads.
